@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/sunny-dev/.dotnet/store/|arch|/|tfm|",
+      "/Users/sunny-dev/.nuget/packages"
+    ]
+  }
+}
