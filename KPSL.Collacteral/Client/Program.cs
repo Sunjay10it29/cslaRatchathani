@@ -13,26 +13,24 @@ namespace KPSL.Collacteral.Client
     {
         public static async Task Main(string[] args)
         {
-            
+
             var builder = WebAssemblyHostBuilder.CreateDefault(args);
             builder.RootComponents.Add<App>("app");
-            builder.Services.AddAuthorizationCore(config => {
-            config.AddPolicy("IsAuthenticated",
-            policy => policy.RequireAuthenticatedUser());
-            config.AddPolicy("IsAdmin",
-            policy => policy.RequireRole("admin", "supervisor", "manager"));
-            config.AddPolicy("Thailand",
-            policy => policy.RequireClaim(ClaimTypes.Country, "es"));
+            builder.Services.AddAuthorizationCore(config =>
+            {
+                config.AddPolicy("IsAuthenticated",
+                policy => policy.RequireAuthenticatedUser());
+                config.AddPolicy("IsAdmin",
+                policy => policy.RequireRole("admin", "supervisor", "manager"));
+                config.AddPolicy("Thailand",
+                policy => policy.RequireClaim(ClaimTypes.Country, "es"));
             });
             builder.Services.AddBaseAddressHttpClient();
             // builder.Services.AddOptions();
             // builder.Services.AddAuthorizationCore();
-            builder.Services.AddSingleton
-            <AuthenticationStateProvider, CslaAuthenticationStateProvider>();
+            builder.Services.AddSingleton<AuthenticationStateProvider, CslaAuthenticationStateProvider>();
             builder.Services.AddSingleton<CslaUserService>();
-            builder.Services.AddSingleton<AuthenticationStateProvider, CurrentUserAuthenticationStateProvider>();
-        //    var authStateProvider = builder.RootComponents.GetRequiredService<AuthenticationStateProvider>();
-        //     authStateProvider.AuthenticationStateChanged += AuthStateProvider_AuthenticationStateChanged;
+            // builder.Services.AddSingleton<AuthenticationStateProvider, CurrentUserAuthenticationStateProvider>();
 
             builder.UseCsla(c =>
                     {
@@ -42,12 +40,12 @@ namespace KPSL.Collacteral.Client
 
             await builder.Build().RunAsync();
         }
-            private void AuthStateProvider_AuthenticationStateChanged(System.Threading.Tasks.Task<AuthenticationState> task)
-             {
+        private void AuthStateProvider_AuthenticationStateChanged(System.Threading.Tasks.Task<AuthenticationState> task)
+        {
             var cslaPrincipal = new Csla.Security.CslaClaimsPrincipal(task.Result.User);
             ApplicationContext.User = cslaPrincipal;
-    }
-        
+        }
+
     }
 }
 
