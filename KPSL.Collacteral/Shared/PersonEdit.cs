@@ -33,7 +33,7 @@ namespace KPSL.Collacteral.Shared
         new Csla.Rules.CommonRules.IsInRole(
           Csla.Rules.AuthorizationActions.ReadProperty, 
           NameProperty, 
-          "user"));
+          "supervisor"));
     }
   }
 }

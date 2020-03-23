@@ -18,7 +18,8 @@ namespace KPSL.Collacteral.Shared
         Roles = new Csla.Core.MobileList<string>
         {
           "admin",
-          "user"
+          "supervisor",
+          "manager"
         };
       }
       else

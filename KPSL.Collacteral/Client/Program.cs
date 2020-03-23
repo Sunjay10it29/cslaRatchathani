@@ -20,8 +20,7 @@ namespace KPSL.Collacteral.Client
             {
                 config.AddPolicy("IsAuthenticated",
                 policy => policy.RequireAuthenticatedUser());
-                config.AddPolicy("IsAdmin",
-                policy => policy.RequireRole("admin", "supervisor", "manager"));
+                config.AddPolicy("IsAdmin", policy => policy.RequireRole("admin", "supervisor", "manager"));
                 config.AddPolicy("Thailand",
                 policy => policy.RequireClaim(ClaimTypes.Country, "es"));
             });

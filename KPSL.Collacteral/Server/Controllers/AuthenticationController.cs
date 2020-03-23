@@ -13,7 +13,7 @@ namespace KPSL.Collacteral.Server.Controllers
     private static Dictionary<string, string> Users = new Dictionary<string, string>
     {
       { "rocky", "1234" },
-      { "user", "abcd" },
+      { "supervisor", "abcd" },
       { "admin", "sunny" }
     };
 

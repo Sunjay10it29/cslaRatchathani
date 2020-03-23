@@ -14,10 +14,35 @@ Welcome to your new app.
 <div>(@Csla.ApplicationContext.User.GetType().FullName)</div>
 <div>(@Csla.ApplicationContext.User.Identity.GetType().FullName)</div>
 <p>
-  <AuthorizeView>
+  <AuthorizeView Roles="supervisor">
     <Authorized>
+       <p>I am supervisor</p>
+      User authorized
+      <div>in role personcreator: @Csla.ApplicationContext.User.IsInRole("supervisor")</div>
+    </Authorized>
+    <NotAuthorized>
+      User NOT authorized
+    </NotAuthorized>
+  </AuthorizeView>
+</p>
+<p>
+  <AuthorizeView Roles="admin">
+    <Authorized>
+       <p>I am admin</p>
       User authorized
       <div>in role personcreator: @Csla.ApplicationContext.User.IsInRole("admin")</div>
+    </Authorized>
+    <NotAuthorized>
+      User NOT authorized
+    </NotAuthorized>
+  </AuthorizeView>
+</p>
+<p>
+  <AuthorizeView Roles="manager">
+    <Authorized>
+       <p>I am manager</p>
+      User authorized
+      <div>in role personcreator: @Csla.ApplicationContext.User.IsInRole("manager")</div>
     </Authorized>
     <NotAuthorized>
       User NOT authorized
