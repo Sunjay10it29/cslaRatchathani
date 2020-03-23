@@ -23,7 +23,7 @@ namespace KPSL.Collacteral.Shared
         typeof(PersonEdit),
         new Csla.Rules.CommonRules.IsInRole(
           Csla.Rules.AuthorizationActions.CreateObject,
-          "PersonCreator"));
+          "admin"));
     }
 
     protected override void AddBusinessRules()
@@ -33,7 +33,7 @@ namespace KPSL.Collacteral.Shared
         new Csla.Rules.CommonRules.IsInRole(
           Csla.Rules.AuthorizationActions.ReadProperty, 
           NameProperty, 
-          "NameViewer"));
+          "user"));
     }
   }
 }

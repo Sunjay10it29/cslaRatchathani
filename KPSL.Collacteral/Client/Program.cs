@@ -1,7 +1,4 @@
-using System;
-using System.Collections.Generic;
 using System.Threading.Tasks;
-using System.Text;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Csla.Blazor.Client.Authentication;
@@ -9,7 +6,7 @@ using Microsoft.AspNetCore.Components.Authorization;
 using KPSL.Collacteral.Shared;
 using Csla.Configuration;
 using System.Security.Claims;
-
+using Csla;
 namespace KPSL.Collacteral.Client
 {
     public class Program
@@ -33,15 +30,24 @@ namespace KPSL.Collacteral.Client
             builder.Services.AddSingleton
             <AuthenticationStateProvider, CslaAuthenticationStateProvider>();
             builder.Services.AddSingleton<CslaUserService>();
+            builder.Services.AddSingleton<AuthenticationStateProvider, CurrentUserAuthenticationStateProvider>();
+        //    var authStateProvider = builder.RootComponents.GetRequiredService<AuthenticationStateProvider>();
+        //     authStateProvider.AuthenticationStateChanged += AuthStateProvider_AuthenticationStateChanged;
 
             builder.UseCsla(c =>
                     {
                         c.DataPortal()
-                .DefaultProxy(typeof(Csla.DataPortalClient.HttpProxy), "https://localhost:5001/api/dataportaltext/");
+                .DefaultProxy(typeof(Csla.DataPortalClient.HttpProxy), "/api/dataportaltext/");
                     });
 
             await builder.Build().RunAsync();
         }
+            private void AuthStateProvider_AuthenticationStateChanged(System.Threading.Tasks.Task<AuthenticationState> task)
+             {
+            var cslaPrincipal = new Csla.Security.CslaClaimsPrincipal(task.Result.User);
+            ApplicationContext.User = cslaPrincipal;
+    }
+        
     }
 }
 

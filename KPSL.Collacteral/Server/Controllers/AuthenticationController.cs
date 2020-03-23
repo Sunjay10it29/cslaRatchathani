@@ -12,9 +12,9 @@ namespace KPSL.Collacteral.Server.Controllers
   {
     private static Dictionary<string, string> Users = new Dictionary<string, string>
     {
-      { "rocky", "mypassword" },
-      { "andrew", "otherpassword" },
-      { "admin", "admin" }
+      { "rocky", "1234" },
+      { "user", "abcd" },
+      { "admin", "sunny" }
     };
 
     [HttpPost]
@@ -29,7 +29,7 @@ namespace KPSL.Collacteral.Server.Controllers
         result.AuthenticationType = "password";
         result.Name = credentials.Username.ToLower();
         result.Claims.Add(new ClaimInfo 
-          { ClaimType = ClaimTypes.Name, Claim = credentials.Username.ToLower() });
+          { ClaimType = ClaimTypes.Role, Claim = credentials.Username.ToLower() });
       }
       return result;
     }

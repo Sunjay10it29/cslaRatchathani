@@ -8,7 +8,30 @@
 @inject CslaUserService userService
 @inject NavigationManager nav
 
-<h3>Login</h3>
+
+<div>@AuthState.Result.User</div>
+<h3>Login-new</h3>
+<AuthorizeView>
+  <Authorized>
+    <p>You are logged in.</p>
+    <span></span>
+    <button class="btn btn-primary" @onclick="HandleLogout">Logout</button>
+    <h2>Claims</h2>
+    <ul>
+      @foreach (var claim in AuthState.Result.User.Claims)
+      {
+        <li>@claim</li>
+      <li><p><span>@claim.Type</span>: <span>@claim.Value</span>: <span>@claim.ValueType</span></p></li>
+      }
+    </ul>
+   
+  </Authorized>
+  <NotAuthorized>
+    <button class="btn btn-primary" @onclick="HandleLogin">Login</button>
+  </NotAuthorized>
+</AuthorizeView>
+
+<h3>Login-old</h3>
 
 <p class="text-danger">@vm.ViewModelErrorText</p>
 
@@ -31,6 +54,7 @@ else
     </tbody>
   </table>
   <button @onclick="VerifyCredentials" disabled="@(!vm.Model.IsSavable)">Save</button>
+  
 }
 
 @code {
@@ -46,15 +70,48 @@ else
 
   private async void VerifyCredentials()
   {
-    var identity = await DataPortal.FetchAsync<CustomIdentity>(vm.Model);
-    var baseidentity = new ClaimsIdentity(identity.AuthenticationType);
+
+    var identity = await DataPortal.FetchAsync<CustomIdentity>(vm.Model); 
+    var baseidentity = new ClaimsIdentity(identity.AuthenticationType); 
     baseidentity.AddClaim(new Claim(ClaimTypes.Name, identity.Name));
+    baseidentity.AddClaim(new Claim(ClaimTypes.Role, identity.Name));
+
     if (identity.Roles != null)
-      foreach (var item in identity.Roles)
-        baseidentity.AddClaim(new Claim(ClaimTypes.Role, item));
-    var principal = new System.Security.Claims.ClaimsPrincipal(baseidentity);
-    userService.CurrentUser = principal;
-    StateHasChanged();
-    nav.NavigateTo("/");
+      foreach (var item in identity.Roles) 
+     baseidentity.AddClaim(new Claim(ClaimTypes.Name, identity.Name));
+      baseidentity.AddClaim(new Claim(ClaimTypes.Role, identity.Name));
+      var principal = new System.Security.Claims.ClaimsPrincipal(baseidentity); 
+      userService.CurrentUser = principal;
+      StateHasChanged();
+      nav.NavigateTo("/");
   }
+
+
+  [CascadingParameter]
+      public Task<AuthenticationState> AuthState { get; set; }
+
+      public void HandleLogin()
+      {
+        Console.WriteLine("logging in");
+        var claims = new Claim[]
+        {
+        new Claim(ClaimTypes.Name, "Test User"),
+        new Claim(ClaimTypes.Role, "Admin"),
+      };
+
+      var identity = new ClaimsIdentity(claims, "Test", ClaimTypes.Name, ClaimTypes.Role);
+
+      userService.CurrentUser = new System.Security.Claims.ClaimsPrincipal(identity);
+      StateHasChanged();
+      Console.WriteLine("logged in");
+    }
+
+    public void HandleLogout()
+    {
+      var identity = new ClaimsIdentity();
+      userService.CurrentUser = new System.Security.Claims.ClaimsPrincipal(identity);
+      StateHasChanged();
+    }
+
+
 }

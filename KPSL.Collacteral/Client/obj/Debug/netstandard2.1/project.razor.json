@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Client/KPSL.Collacteral.Client.csproj",
+  "FilePath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Client/KPSL.Collacteral.Client.csproj",
   "Configuration": {
     "ConfigurationName": "Default",
     "LanguageVersion": "3.0",
@@ -58,14 +58,14 @@
       },
       {
         "Kind": "Components.Component",
-        "Name": "KPSL.Collacteral.Client.Pages.Counter",
+        "Name": "KPSL.Collacteral.Client.Pages.Logout",
         "AssemblyName": "KPSL.Collacteral.Client",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Counter",
+            "TagName": "Logout",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -77,19 +77,19 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KPSL.Collacteral.Client.Pages.Counter"
+          "Common.TypeName": "KPSL.Collacteral.Client.Pages.Logout"
         }
       },
       {
         "Kind": "Components.Component",
-        "Name": "KPSL.Collacteral.Client.Pages.Counter",
+        "Name": "KPSL.Collacteral.Client.Pages.Logout",
         "AssemblyName": "KPSL.Collacteral.Client",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "KPSL.Collacteral.Client.Pages.Counter",
+            "TagName": "KPSL.Collacteral.Client.Pages.Logout",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -101,56 +101,7 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KPSL.Collacteral.Client.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "KPSL.Collacteral.Client.Pages.FetchData",
-        "AssemblyName": "KPSL.Collacteral.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KPSL.Collacteral.Client.Pages.FetchData"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "KPSL.Collacteral.Client.Pages.FetchData",
-        "AssemblyName": "KPSL.Collacteral.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "KPSL.Collacteral.Client.Pages.FetchData",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KPSL.Collacteral.Client.Pages.FetchData",
+          "Common.TypeName": "KPSL.Collacteral.Client.Pages.Logout",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -205,6 +156,55 @@
       },
       {
         "Kind": "Components.Component",
+        "Name": "KPSL.Collacteral.Client.Pages.Counter",
+        "AssemblyName": "KPSL.Collacteral.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KPSL.Collacteral.Client.Pages.Counter"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "KPSL.Collacteral.Client.Pages.Counter",
+        "AssemblyName": "KPSL.Collacteral.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "KPSL.Collacteral.Client.Pages.Counter",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KPSL.Collacteral.Client.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
         "Name": "KPSL.Collacteral.Client.Pages.Login",
         "AssemblyName": "KPSL.Collacteral.Client",
         "Documentation": null,
@@ -254,14 +254,14 @@
       },
       {
         "Kind": "Components.Component",
-        "Name": "KPSL.Collacteral.Client.Pages.Logout",
+        "Name": "KPSL.Collacteral.Client.Pages.FetchData",
         "AssemblyName": "KPSL.Collacteral.Client",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Logout",
+            "TagName": "FetchData",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -273,19 +273,19 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KPSL.Collacteral.Client.Pages.Logout"
+          "Common.TypeName": "KPSL.Collacteral.Client.Pages.FetchData"
         }
       },
       {
         "Kind": "Components.Component",
-        "Name": "KPSL.Collacteral.Client.Pages.Logout",
+        "Name": "KPSL.Collacteral.Client.Pages.FetchData",
         "AssemblyName": "KPSL.Collacteral.Client",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "KPSL.Collacteral.Client.Pages.Logout",
+            "TagName": "KPSL.Collacteral.Client.Pages.FetchData",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -297,7 +297,7 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KPSL.Collacteral.Client.Pages.Logout",
+          "Common.TypeName": "KPSL.Collacteral.Client.Pages.FetchData",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -18929,83 +18929,83 @@
   "RootNamespace": "KPSL.Collacteral.Client",
   "Documents": [
     {
-      "FilePath": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Client/Shared/NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Client/Pages/Login.razor",
-      "TargetPath": "Pages\\Login.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Client/Shared/SurveyPrompt.razor",
-      "TargetPath": "Shared\\SurveyPrompt.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Client/Shared/TextInputRow.razor",
-      "TargetPath": "Shared\\TextInputRow.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Client/Shared/DateInput.razor",
-      "TargetPath": "Shared\\DateInput.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Client/Pages/Index.razor",
-      "TargetPath": "Pages\\Index.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Client/Pages/Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Client/Shared/DateInputRow.razor",
-      "TargetPath": "Shared\\DateInputRow.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Client/Shared/TextInput.razor",
-      "TargetPath": "Shared\\TextInput.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Client/Shared/LabelText.razor",
-      "TargetPath": "Shared\\LabelText.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Client/_Imports.razor",
-      "TargetPath": "_Imports.razor",
-      "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Client/Shared/MainLayout.razor",
-      "TargetPath": "Shared\\MainLayout.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Client/Shared/DisplayRow.razor",
-      "TargetPath": "Shared\\DisplayRow.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Client/Pages/FetchData.razor",
+      "FilePath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Client/Pages/FetchData.razor",
       "TargetPath": "Pages\\FetchData.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Client/Pages/Logout.razor",
-      "TargetPath": "Pages\\Logout.razor",
+      "FilePath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Client/Shared/DisplayRow.razor",
+      "TargetPath": "Shared\\DisplayRow.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Client/App.razor",
+      "FilePath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Client/App.razor",
       "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Client/_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Client/Shared/TextInputRow.razor",
+      "TargetPath": "Shared\\TextInputRow.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Client/Shared/DateInputRow.razor",
+      "TargetPath": "Shared\\DateInputRow.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Client/Shared/LabelText.razor",
+      "TargetPath": "Shared\\LabelText.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Client/Pages/Index.razor",
+      "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Client/Pages/Counter.razor",
+      "TargetPath": "Pages\\Counter.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Client/Pages/Login.razor",
+      "TargetPath": "Pages\\Login.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Client/Shared/TextInput.razor",
+      "TargetPath": "Shared\\TextInput.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Client/Shared/NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Client/Shared/DateInput.razor",
+      "TargetPath": "Shared\\DateInput.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Client/Shared/SurveyPrompt.razor",
+      "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Client/Shared/MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Client/Pages/Logout.razor",
+      "TargetPath": "Pages\\Logout.razor",
       "FileKind": "component"
     }
   ],

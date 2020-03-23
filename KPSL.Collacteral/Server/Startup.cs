@@ -35,7 +35,7 @@ namespace KPSL.Collacteral.Server
                 options.AllowSynchronousIO = true;
             });
             services.AddControllersWithViews();
-            services.AddCsla().WithBlazorServerSupport();
+            services.AddCsla();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

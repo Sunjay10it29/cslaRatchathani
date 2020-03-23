@@ -14,7 +14,7 @@ namespace KPSL.Collacteral.Shared
       {
         Name = credentials.Username;
         IsAuthenticated = true;
-        AuthenticationType = "Custom";
+        AuthenticationType = "Password";
         Roles = new Csla.Core.MobileList<string>
         {
           "admin",

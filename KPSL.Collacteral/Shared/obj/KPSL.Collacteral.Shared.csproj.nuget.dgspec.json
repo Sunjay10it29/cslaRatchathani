@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Shared/KPSL.Collacteral.Shared.csproj": {}
+    "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/KPSL.Collacteral.Shared.csproj": {}
   },
   "projects": {
-    "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Shared/KPSL.Collacteral.Shared.csproj": {
+    "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/KPSL.Collacteral.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Shared/KPSL.Collacteral.Shared.csproj",
+        "projectUniqueName": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/KPSL.Collacteral.Shared.csproj",
         "projectName": "KPSL.Collacteral.Shared",
-        "projectPath": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Shared/KPSL.Collacteral.Shared.csproj",
+        "projectPath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/KPSL.Collacteral.Shared.csproj",
         "packagesPath": "/Users/sunny-dev/.nuget/packages/",
-        "outputPath": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Shared/obj/",
+        "outputPath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sunny-dev/.nuget/NuGet/NuGet.Config"

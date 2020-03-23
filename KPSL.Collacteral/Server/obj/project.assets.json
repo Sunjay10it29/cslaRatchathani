@@ -1216,6 +1216,7 @@
           "Csla.Blazor": "5.1.0",
           "KPSL.Collacteral.Shared": "1.0.0",
           "Microsoft.AspNetCore.Blazor.HttpClient": "3.2.0-preview2.20160.5",
+          "Microsoft.AspNetCore.Components.Authorization": "3.1.1",
           "Microsoft.AspNetCore.Components.WebAssembly": "3.2.0-preview2.20160.5"
         },
         "compile": {
@@ -4722,6 +4723,7 @@
       "Csla.Blazor >= 5.1.0",
       "KPSL.Collacteral.Client >= 1.0.0",
       "KPSL.Collacteral.Shared >= 1.0.0",
+      "Microsoft.AspNetCore.Components.Authorization >= 3.1.1",
       "Microsoft.AspNetCore.Components.WebAssembly.Server >= 3.2.0-preview2.20160.5"
     ]
   },
@@ -4731,11 +4733,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Server/KPSL.Collacteral.Server.csproj",
+      "projectUniqueName": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Server/KPSL.Collacteral.Server.csproj",
       "projectName": "KPSL.Collacteral.Server",
-      "projectPath": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Server/KPSL.Collacteral.Server.csproj",
+      "projectPath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Server/KPSL.Collacteral.Server.csproj",
       "packagesPath": "/Users/sunny-dev/.nuget/packages/",
-      "outputPath": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Server/obj/",
+      "outputPath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Server/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/sunny-dev/.nuget/NuGet/NuGet.Config"
@@ -4749,11 +4751,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Client/KPSL.Collacteral.Client.csproj": {
-              "projectPath": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Client/KPSL.Collacteral.Client.csproj"
+            "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Client/KPSL.Collacteral.Client.csproj": {
+              "projectPath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Client/KPSL.Collacteral.Client.csproj"
             },
-            "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Shared/KPSL.Collacteral.Shared.csproj": {
-              "projectPath": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Shared/KPSL.Collacteral.Shared.csproj"
+            "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/KPSL.Collacteral.Shared.csproj": {
+              "projectPath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/KPSL.Collacteral.Shared.csproj"
             }
           }
         }
@@ -4778,6 +4780,10 @@
           "Csla.Blazor": {
             "target": "Package",
             "version": "[5.1.0, )"
+          },
+          "Microsoft.AspNetCore.Components.Authorization": {
+            "target": "Package",
+            "version": "[3.1.1, )"
           },
           "Microsoft.AspNetCore.Components.WebAssembly.Server": {
             "target": "Package",

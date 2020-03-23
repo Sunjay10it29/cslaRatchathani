@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N3fwQq5m4Q3OABsbNembEflrezJ2KmldMDhqy3rTRJwOxBYkaEEUpQ1DH/GwesRjGKdTIgkzHWfqibCQNXOxHw==",
+  "dgSpecHash": "7Vt3WVVyNlYIKuLHZ8UO6JYVehTjNHrT1B1VcavnCfGIiddDkBS/W2WYbu5KHhJuAqCNfIrnhviqJu4Xy5OXmw==",
   "success": true,
-  "projectFilePath": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Client/KPSL.Collacteral.Client.csproj",
+  "projectFilePath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Client/KPSL.Collacteral.Client.csproj",
   "expectedPackageFiles": [
     "/Users/sunny-dev/.nuget/packages/csla/5.1.0/csla.5.1.0.nupkg.sha512",
     "/Users/sunny-dev/.nuget/packages/csla.blazor/5.1.0/csla.blazor.5.1.0.nupkg.sha512",

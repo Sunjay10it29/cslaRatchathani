@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Server/KPSL.Collacteral.Server.csproj": {}
+    "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Server/KPSL.Collacteral.Server.csproj": {}
   },
   "projects": {
-    "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Client/KPSL.Collacteral.Client.csproj": {
+    "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Client/KPSL.Collacteral.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Client/KPSL.Collacteral.Client.csproj",
+        "projectUniqueName": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Client/KPSL.Collacteral.Client.csproj",
         "projectName": "KPSL.Collacteral.Client",
-        "projectPath": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Client/KPSL.Collacteral.Client.csproj",
+        "projectPath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Client/KPSL.Collacteral.Client.csproj",
         "packagesPath": "/Users/sunny-dev/.nuget/packages/",
-        "outputPath": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Client/obj/",
+        "outputPath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Client/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sunny-dev/.nuget/NuGet/NuGet.Config"
@@ -25,8 +25,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Shared/KPSL.Collacteral.Shared.csproj": {
-                "projectPath": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Shared/KPSL.Collacteral.Shared.csproj"
+              "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/KPSL.Collacteral.Shared.csproj": {
+                "projectPath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/KPSL.Collacteral.Shared.csproj"
               }
             }
           }
@@ -47,6 +47,10 @@
             "Microsoft.AspNetCore.Blazor.HttpClient": {
               "target": "Package",
               "version": "[3.2.0-preview2.20160.5, )"
+            },
+            "Microsoft.AspNetCore.Components.Authorization": {
+              "target": "Package",
+              "version": "[3.1.1, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
@@ -82,14 +86,14 @@
         }
       }
     },
-    "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Server/KPSL.Collacteral.Server.csproj": {
+    "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Server/KPSL.Collacteral.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Server/KPSL.Collacteral.Server.csproj",
+        "projectUniqueName": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Server/KPSL.Collacteral.Server.csproj",
         "projectName": "KPSL.Collacteral.Server",
-        "projectPath": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Server/KPSL.Collacteral.Server.csproj",
+        "projectPath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Server/KPSL.Collacteral.Server.csproj",
         "packagesPath": "/Users/sunny-dev/.nuget/packages/",
-        "outputPath": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Server/obj/",
+        "outputPath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Server/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sunny-dev/.nuget/NuGet/NuGet.Config"
@@ -103,11 +107,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Client/KPSL.Collacteral.Client.csproj": {
-                "projectPath": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Client/KPSL.Collacteral.Client.csproj"
+              "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Client/KPSL.Collacteral.Client.csproj": {
+                "projectPath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Client/KPSL.Collacteral.Client.csproj"
               },
-              "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Shared/KPSL.Collacteral.Shared.csproj": {
-                "projectPath": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Shared/KPSL.Collacteral.Shared.csproj"
+              "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/KPSL.Collacteral.Shared.csproj": {
+                "projectPath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/KPSL.Collacteral.Shared.csproj"
               }
             }
           }
@@ -132,6 +136,10 @@
             "Csla.Blazor": {
               "target": "Package",
               "version": "[5.1.0, )"
+            },
+            "Microsoft.AspNetCore.Components.Authorization": {
+              "target": "Package",
+              "version": "[3.1.1, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly.Server": {
               "target": "Package",
@@ -160,14 +168,14 @@
         }
       }
     },
-    "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Shared/KPSL.Collacteral.Shared.csproj": {
+    "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/KPSL.Collacteral.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Shared/KPSL.Collacteral.Shared.csproj",
+        "projectUniqueName": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/KPSL.Collacteral.Shared.csproj",
         "projectName": "KPSL.Collacteral.Shared",
-        "projectPath": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Shared/KPSL.Collacteral.Shared.csproj",
+        "projectPath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/KPSL.Collacteral.Shared.csproj",
         "packagesPath": "/Users/sunny-dev/.nuget/packages/",
-        "outputPath": "/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Shared/obj/",
+        "outputPath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sunny-dev/.nuget/NuGet/NuGet.Config"

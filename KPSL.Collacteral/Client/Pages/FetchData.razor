@@ -3,12 +3,18 @@
 @inject HttpClient Http
 @using Csla.Blazor
 @using Csla.Rules 
-@* @attribute [HasPermission(AuthorizationActions.CreateObject, typeof(PersonEdit))] *@
-@attribute [Authorize]
+@* 
+@attribute [HasPermission(AuthorizationActions.CreateObject, typeof(PersonEdit))] *@
+@attribute [Authorize (Roles= "admin")]
 <h1>Weather forecast</h1>
 
 <p>This component demonstrates fetching data from the server.</p>
 
+<p>
+ <div>what: @Csla.ApplicationContext.User</div>
+  <div>Username: @Csla.ApplicationContext.User.Identity.Name</div>
+  <div>IsAuthenticated: @Csla.ApplicationContext.User.Identity.IsAuthenticated</div>
+</p>
 @if (forecasts == null)
 {
     <p><em>Loading...</em></p>
@@ -16,7 +22,7 @@
 else
 {
      <div class="content px-4"> 
-     <AuthorizeView Roles="admin">
+  <AuthorizeView>
     <Authorized> 
     You are Admin Yeah !
     </Authorized> 

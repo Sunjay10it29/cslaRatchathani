@@ -36,7 +36,7 @@ obj/Debug/netstandard2.1/KPSL.Collacteral.Client.dll
 /Users/sunny-dev/.nuget/packages/microsoft.aspnetcore.components.webassembly.runtime/3.2.0-preview2.20159.2/build/netstandard1.0/../../tools/dotnetwasm/bcl/System.ComponentModel.DataAnnotations.dll
 /Users/sunny-dev/.nuget/packages/microsoft.aspnetcore.components/3.1.2/lib/netstandard2.0/Microsoft.AspNetCore.Components.dll
 /Users/sunny-dev/.nuget/packages/microsoft.extensions.logging.abstractions/3.1.2/lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll
-/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Shared/bin/Debug/netstandard2.1/KPSL.Collacteral.Shared.dll
+/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/bin/Debug/netstandard2.1/KPSL.Collacteral.Shared.dll
 /Users/sunny-dev/.nuget/packages/microsoft.aspnetcore.authorization/3.1.2/lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll
 /Users/sunny-dev/.nuget/packages/microsoft.extensions.options/3.1.2/lib/netstandard2.0/Microsoft.Extensions.Options.dll
 /Users/sunny-dev/.nuget/packages/microsoft.extensions.primitives/3.1.2/lib/netstandard2.0/Microsoft.Extensions.Primitives.dll
@@ -54,5 +54,5 @@ obj/Debug/netstandard2.1/KPSL.Collacteral.Client.dll
 /Users/sunny-dev/.nuget/packages/microsoft.aspnetcore.components.webassembly/3.2.0-preview2.20160.5/lib/netstandard2.1/Microsoft.AspNetCore.Components.WebAssembly.dll
 /Users/sunny-dev/.nuget/packages/microsoft.jsinterop.webassembly/3.2.0-preview2.20160.5/lib/netstandard2.1/Microsoft.JSInterop.WebAssembly.dll
 obj/Debug/netstandard2.1/KPSL.Collacteral.Client.pdb
-/Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Shared/bin/Debug/netstandard2.1/KPSL.Collacteral.Shared.pdb
+/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/bin/Debug/netstandard2.1/KPSL.Collacteral.Shared.pdb
 /Users/sunny-dev/.nuget/packages/csla.blazor/5.1.0/lib/netstandard2.1/Csla.Blazor.pdb

@@ -32,7 +32,7 @@
       "vi\/Csla.resources.dll": "sha256-WHIrQpv8PBszliAdXRADjyn4uMdBj\/XxQtfMhTphWQI=",
       "zh-Hans\/Csla.resources.dll": "sha256-gEfrOQyDF9HuO7RMZzvzMMS8FFFLqZG+NbBzzKGXd6s=",
       "zh-TW\/Csla.resources.dll": "sha256-a+68Lx4Rn+a4ISjWevxIRmirWtpD10XPEU5ONhTXHPo=",
-      "KPSL.Collacteral.Client.dll": "sha256-tTsDEmVKByQXX01WeoVxAWonVU+\/SSrhU+rmltLC15o=",
+      "KPSL.Collacteral.Client.dll": "sha256-5w59qhcAcAzxcyhPz2ppPPr0TuLqpi2DclMnxGO+suU=",
       "Microsoft.AspNetCore.Blazor.HttpClient.dll": "sha256-bbsWh06yarF\/XcKSWn5FMPZ5xbIvXqZa6x1hh392eoc=",
       "System.Text.Json.dll": "sha256-pzCorxTCjbUODF5JuRgcHc8gVYEdSaKD9NWA6wZhTPE=",
       "System.Runtime.CompilerServices.Unsafe.dll": "sha256-jSbbdZ+4PD2T6Vi89+Tvmvg3VxTKeCToquIW6x+iTBM=",
@@ -70,7 +70,7 @@
       "System.ComponentModel.DataAnnotations.dll": "sha256-0SUCcQWzGHfcG6aXyLxaiKag9TH1oBonphJAYmaZGoM=",
       "Microsoft.AspNetCore.Components.dll": "sha256-frGTd\/pHKY90\/MumXJBc9G549bt9caoHvQYRkXRv6Wg=",
       "Microsoft.Extensions.Logging.Abstractions.dll": "sha256-XEMrWgumrvb6MWnLgn2MdUnzOi0aL0vVcvngLCCdHX4=",
-      "KPSL.Collacteral.Shared.dll": "sha256-4nVQbw02KTXJFrDI5q2varWyZCHkSVluQEWSQAwVZIw=",
+      "KPSL.Collacteral.Shared.dll": "sha256-8mGPDTIRpmiYeksUzP0wTr7SdN+dZquLR15e17UT7Qs=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-PaN3lwhqCG01MksqVzsI8M\/fzZuCs+KxN7nKDCre7zM=",
       "Microsoft.Extensions.Options.dll": "sha256-J5BBHOj8IQQ6vTYWtbxLi2MzjCBv2eU3MC\/cOe9LQtU=",
       "Microsoft.Extensions.Primitives.dll": "sha256-qoczDoQaPzA5lcK8PSV0zAFTjxAqhVpsyYPJuT0ufLY=",
@@ -89,8 +89,8 @@
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-As4J4IKSKh3bNALtK4PSknM5suoP1j6I5YXiOIrIZ3U="
     },
     "pdb": {
-      "KPSL.Collacteral.Client.pdb": "sha256-GJSPQgbSnsYMvPS6IWc\/9kE89T3Vtyxj5M1EyKM5x6A=",
-      "KPSL.Collacteral.Shared.pdb": "sha256-lGg7\/RInBthF95wR+qudiklobH1IaqIo19IG3eTbFfg=",
+      "KPSL.Collacteral.Client.pdb": "sha256-uytCmpx\/5r0MxjqMwipKzDkejOq3cOmosTaurjA5CQo=",
+      "KPSL.Collacteral.Shared.pdb": "sha256-9iso1gXAaFIPbfPY8RiL8Q\/RomYgeDWIn43jPBtk0qQ=",
       "Csla.Blazor.pdb": "sha256-qi7L6chKj9vrBApVwJwlezbQZ\/6DL01jljcmN1M51Zc="
     },
     "runtime": {
