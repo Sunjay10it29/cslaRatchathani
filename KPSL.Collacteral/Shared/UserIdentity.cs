@@ -10,6 +10,7 @@ namespace KPSL.Collacteral.Shared
     public string AuthenticationType { get; set; }
     public bool IsAuthenticated { get; set; }
     public List<ClaimInfo> Claims { get; set; } = new List<ClaimInfo>();
+
   }
 
   public class ClaimInfo

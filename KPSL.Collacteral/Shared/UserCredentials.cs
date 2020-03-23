@@ -7,13 +7,6 @@ namespace KPSL.Collacteral.Shared
   [Serializable]
   public class UserCredentials : BusinessBase<UserCredentials>
   {
-    public static readonly PropertyInfo<string> RoleProperty = RegisterProperty<string>(nameof(Role));
-    [Required]
-    public string Role
-    {
-      get => GetProperty(RoleProperty);
-      set => SetProperty(RoleProperty, value);
-    }
     public static readonly PropertyInfo<string> UsernameProperty = RegisterProperty<string>(nameof(Username));
     [Required]
     public string Username
