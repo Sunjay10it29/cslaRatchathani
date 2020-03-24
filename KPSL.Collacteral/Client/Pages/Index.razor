@@ -18,7 +18,7 @@ Welcome to your new app.
     <Authorized>
        <p>I am supervisor</p>
       User authorized
-      <div>in role personcreator: @Csla.ApplicationContext.User.IsInRole("supervisor")</div>
+      <div>in role: @Csla.ApplicationContext.User.IsInRole("supervisor")</div>
     </Authorized>
     <NotAuthorized>
       User NOT authorized
@@ -30,7 +30,7 @@ Welcome to your new app.
     <Authorized>
        <p>I am admin</p>
       User authorized
-      <div>in role personcreator: @Csla.ApplicationContext.User.IsInRole("admin")</div>
+      <div>in role: @Csla.ApplicationContext.User.IsInRole("admin")</div>
     </Authorized>
     <NotAuthorized>
       User NOT authorized
@@ -51,9 +51,9 @@ Welcome to your new app.
 </p>
 
 <p>
-  <AuthorizeView Policy="@(CslaPolicy.GetPolicy(AuthorizationActions.CreateObject, typeof(PersonEdit)))">
+  <AuthorizeView Roles="sunny">
     <Authorized>
-      User can create a person object
+      User can create a person object  huhuhu
     </Authorized>
     <NotAuthorized>
       User can NOT create a person object

@@ -10,17 +10,18 @@ namespace KPSL.Collacteral.Shared
     private void Fetch(UserCredentials credentials)
     {
       // validate credentials here
-      if (!string.IsNullOrWhiteSpace(credentials.Username))
+      if (!string.IsNullOrWhiteSpace(credentials.Username) && !string.IsNullOrWhiteSpace(credentials.Password) )
       {
         Name = credentials.Username;
         IsAuthenticated = true;
         AuthenticationType = "Password";
         Roles = new Csla.Core.MobileList<string>
         {
-          "admin",
-          "supervisor",
-          "manager"
+          
         };
+        Roles.Add("admin");
+        Roles.Add("supervisor");
+        Roles.Add("manager");
       }
       else
       {

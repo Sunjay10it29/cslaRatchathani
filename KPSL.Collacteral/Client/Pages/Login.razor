@@ -11,7 +11,7 @@
 <h3>Login</h3>
 
 <p class="text-danger">@vm.ViewModelErrorText</p>
-
+<p class="text-danger">@ErrorText</p>
 @if (vm.Model == null)
 {
   <div>Loading...</div>
@@ -35,6 +35,7 @@ else
 }
 
 @code {
+  public string ErrorText { get; set; }
   protected override void OnInitialized()
   {
     vm.ModelPropertyChanged += async (s, e) => await InvokeAsync(() => StateHasChanged());
@@ -49,16 +50,25 @@ else
   {
 
     var identity = await DataPortal.FetchAsync<CustomIdentity>(vm.Model); 
-    var baseidentity = new ClaimsIdentity(identity.AuthenticationType); 
+   
+     if (identity.IsAuthenticated)
 
+    {
+      var baseidentity = new ClaimsIdentity(identity.AuthenticationType); 
+       baseidentity.AddClaim(new Claim(ClaimTypes.Name, identity.Name));
     if (identity.Roles != null)
       foreach (var item in identity.Roles) 
-      baseidentity.AddClaim(new Claim(ClaimTypes.Name, identity.Name));
+    
       baseidentity.AddClaim(new Claim(ClaimTypes.Role, identity.Name));
       var principal = new System.Security.Claims.ClaimsPrincipal(baseidentity); 
       userService.CurrentUser = principal;
-      StateHasChanged();
       nav.NavigateTo("/");
+    }
+    else
+    {
+      ErrorText = "Invalid credentials";
+      StateHasChanged();
+    }
   }
 
 }
