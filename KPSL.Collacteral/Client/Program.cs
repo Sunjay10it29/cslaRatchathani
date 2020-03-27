@@ -16,6 +16,8 @@ namespace KPSL.Collacteral.Client
 
             var builder = WebAssemblyHostBuilder.CreateDefault(args);
             builder.RootComponents.Add<App>("app");
+            //  var authStateProvider = builder.Services.GetRequiredService<AuthenticationStateProvider>();
+            //     authStateProvider.AuthenticationStateChanged += AuthStateProvider_AuthenticationStateChanged;
             builder.Services.AddAuthorizationCore(config =>
             {
                 config.AddPolicy("IsAuthenticated",
@@ -27,6 +29,7 @@ namespace KPSL.Collacteral.Client
             builder.Services.AddBaseAddressHttpClient();
             // builder.Services.AddOptions();
             // builder.Services.AddAuthorizationCore();
+            builder.Services.AddSingleton<IBlazeDebugger, BlazeDebugger>();
             builder.Services.AddSingleton<AuthenticationStateProvider, CslaAuthenticationStateProvider>();
             builder.Services.AddSingleton<CslaUserService>();
             // builder.Services.AddSingleton<AuthenticationStateProvider, CurrentUserAuthenticationStateProvider>();

@@ -1,4 +1,8 @@
 ﻿@page "/counter"
+@using KPSL.Collacteral.Shared
+
+@inject IBlazeDebugger KPSL;
+
 
 <h1>Counter</h1>
 
@@ -8,9 +12,10 @@
 
 @code {
     private int currentCount = 0;
-
     private void IncrementCount()
     {
+        KPSL.ConsoleLog("counterCount before", currentCount);
         currentCount++;
+        KPSL.ConsoleLog("counterCount after", currentCount, LogLevel.Warn);
     }
 }

@@ -384,7 +384,7 @@
           "lib/netstandard2.1/Microsoft.JSInterop.WebAssembly.dll": {}
         }
       },
-      "Microsoft.NETCore.Platforms/1.1.0": {
+      "Microsoft.NETCore.Platforms/3.0.0-preview.19073.11": {
         "type": "package",
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -1753,19 +1753,21 @@
         "microsoft.jsinterop.webassembly.nuspec"
       ]
     },
-    "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+    "Microsoft.NETCore.Platforms/3.0.0-preview.19073.11": {
+      "sha512": "9lLkGd9xOH8kmV1p/evihvUzJxl8r0L5pPJvk4Dq/LmMjaSyeCl3kRFoqtw7/kekSlgXIPb4WO5AQR+wEwzeqA==",
       "type": "package",
-      "path": "microsoft.netcore.platforms/1.1.0",
+      "path": "microsoft.netcore.platforms/3.0.0-preview.19073.11",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard1.0/_._",
-        "microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+        "microsoft.netcore.platforms.3.0.0-preview.19073.11.nupkg.sha512",
         "microsoft.netcore.platforms.nuspec",
-        "runtime.json"
+        "runtime.json",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "Microsoft.NETCore.Targets/1.1.0": {
@@ -4724,7 +4726,8 @@
       "KPSL.Collacteral.Client >= 1.0.0",
       "KPSL.Collacteral.Shared >= 1.0.0",
       "Microsoft.AspNetCore.Components.Authorization >= 3.1.1",
-      "Microsoft.AspNetCore.Components.WebAssembly.Server >= 3.2.0-preview2.20160.5"
+      "Microsoft.AspNetCore.Components.WebAssembly.Server >= 3.2.0-preview2.20160.5",
+      "Microsoft.NETCore.Platforms >= 3.0.0-preview.19073.11"
     ]
   },
   "packageFolders": {
@@ -4788,6 +4791,10 @@
           "Microsoft.AspNetCore.Components.WebAssembly.Server": {
             "target": "Package",
             "version": "[3.2.0-preview2.20160.5, )"
+          },
+          "Microsoft.NETCore.Platforms": {
+            "target": "Package",
+            "version": "[3.0.0-preview.19073.11, )"
           }
         },
         "imports": [

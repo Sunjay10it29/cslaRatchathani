@@ -1,5 +1,6 @@
 ﻿@page "/login"
 @using KPSL.Collacteral.Shared
+@inject IBlazeDebugger KPSL;
 @using System.Security.Claims
 @using Csla
 @using Csla.Blazor
@@ -7,7 +8,7 @@
 @inject ViewModel<UserCredentials> vm
 @inject CslaUserService userService
 @inject NavigationManager nav
-
+@inject HttpClient Http
 <h3>Login</h3>
 
 <p class="text-danger">@vm.ViewModelErrorText</p>
@@ -35,7 +36,7 @@ else
 }
 
 @code {
-  public string ErrorText { get; set; }
+
   protected override void OnInitialized()
   {
     vm.ModelPropertyChanged += async (s, e) => await InvokeAsync(() => StateHasChanged());
@@ -45,24 +46,31 @@ else
   {
     await vm.RefreshAsync();
   }
-
+private string ErrorText { get; set; }
   private async void VerifyCredentials()
   {
 
     var identity = await DataPortal.FetchAsync<CustomIdentity>(vm.Model); 
+      Console.WriteLine(identity);
+       KPSL.ConsoleLog("identity", identity);
    
      if (identity.IsAuthenticated)
 
     {
       var baseidentity = new ClaimsIdentity(identity.AuthenticationType); 
+      KPSL.ConsoleLog("baseidentity", baseidentity);
+   
        baseidentity.AddClaim(new Claim(ClaimTypes.Name, identity.Name));
     if (identity.Roles != null)
       foreach (var item in identity.Roles) 
     
       baseidentity.AddClaim(new Claim(ClaimTypes.Role, identity.Name));
       var principal = new System.Security.Claims.ClaimsPrincipal(baseidentity); 
+      
       userService.CurrentUser = principal;
       nav.NavigateTo("/");
+      KPSL.ConsoleLog("principal", principal);
+      KPSL.ConsoleLog("nav", nav);
     }
     else
     {

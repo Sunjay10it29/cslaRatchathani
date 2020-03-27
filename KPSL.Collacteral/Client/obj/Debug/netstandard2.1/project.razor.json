@@ -58,14 +58,14 @@
       },
       {
         "Kind": "Components.Component",
-        "Name": "KPSL.Collacteral.Client.Pages.Counter",
+        "Name": "KPSL.Collacteral.Client.Pages.FetchData",
         "AssemblyName": "KPSL.Collacteral.Client",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Counter",
+            "TagName": "FetchData",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -77,19 +77,19 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KPSL.Collacteral.Client.Pages.Counter"
+          "Common.TypeName": "KPSL.Collacteral.Client.Pages.FetchData"
         }
       },
       {
         "Kind": "Components.Component",
-        "Name": "KPSL.Collacteral.Client.Pages.Counter",
+        "Name": "KPSL.Collacteral.Client.Pages.FetchData",
         "AssemblyName": "KPSL.Collacteral.Client",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "KPSL.Collacteral.Client.Pages.Counter",
+            "TagName": "KPSL.Collacteral.Client.Pages.FetchData",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -101,56 +101,7 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KPSL.Collacteral.Client.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "KPSL.Collacteral.Client.Pages.Logout",
-        "AssemblyName": "KPSL.Collacteral.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Logout",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KPSL.Collacteral.Client.Pages.Logout"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "KPSL.Collacteral.Client.Pages.Logout",
-        "AssemblyName": "KPSL.Collacteral.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "KPSL.Collacteral.Client.Pages.Logout",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KPSL.Collacteral.Client.Pages.Logout",
+          "Common.TypeName": "KPSL.Collacteral.Client.Pages.FetchData",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -205,14 +156,14 @@
       },
       {
         "Kind": "Components.Component",
-        "Name": "KPSL.Collacteral.Client.Pages.FetchData",
+        "Name": "KPSL.Collacteral.Client.Pages.Logout",
         "AssemblyName": "KPSL.Collacteral.Client",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "FetchData",
+            "TagName": "Logout",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -224,19 +175,19 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KPSL.Collacteral.Client.Pages.FetchData"
+          "Common.TypeName": "KPSL.Collacteral.Client.Pages.Logout"
         }
       },
       {
         "Kind": "Components.Component",
-        "Name": "KPSL.Collacteral.Client.Pages.FetchData",
+        "Name": "KPSL.Collacteral.Client.Pages.Logout",
         "AssemblyName": "KPSL.Collacteral.Client",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "KPSL.Collacteral.Client.Pages.FetchData",
+            "TagName": "KPSL.Collacteral.Client.Pages.Logout",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -248,7 +199,56 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "KPSL.Collacteral.Client.Pages.FetchData",
+          "Common.TypeName": "KPSL.Collacteral.Client.Pages.Logout",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "KPSL.Collacteral.Client.Pages.Counter",
+        "AssemblyName": "KPSL.Collacteral.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KPSL.Collacteral.Client.Pages.Counter"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "KPSL.Collacteral.Client.Pages.Counter",
+        "AssemblyName": "KPSL.Collacteral.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "KPSL.Collacteral.Client.Pages.Counter",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "KPSL.Collacteral.Client.Pages.Counter",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

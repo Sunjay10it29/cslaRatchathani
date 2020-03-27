@@ -86,10 +86,6 @@
 /Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Shared/obj/Debug/netstandard2.1/KPSL.Collacteral.Shared.csproj.CopyComplete
 /Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Shared/obj/Debug/netstandard2.1/KPSL.Collacteral.Shared.dll
 /Users/Hachintosh-oldData/Users/sunny/test/KPSL.Collacteral/Shared/obj/Debug/netstandard2.1/KPSL.Collacteral.Shared.pdb
-/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/obj/Debug/netstandard2.1/KPSL.Collacteral.Shared.csprojAssemblyReference.cache
-/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/obj/Debug/netstandard2.1/KPSL.Collacteral.Shared.csproj.CoreCompileInputs.cache
-/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/obj/Debug/netstandard2.1/KPSL.Collacteral.Shared.AssemblyInfoInputs.cache
-/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/obj/Debug/netstandard2.1/KPSL.Collacteral.Shared.AssemblyInfo.cs
 /Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/bin/Debug/netstandard2.1/KPSL.Collacteral.Shared.dll
 /Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/bin/Debug/netstandard2.1/KPSL.Collacteral.Shared.pdb
 /Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/bin/Debug/netstandard2.1/Csla.dll
@@ -171,6 +167,10 @@
 /Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/bin/Debug/netstandard2.1/vi/Csla.resources.dll
 /Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/bin/Debug/netstandard2.1/zh-Hans/Csla.resources.dll
 /Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/bin/Debug/netstandard2.1/zh-TW/Csla.resources.dll
+/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/obj/Debug/netstandard2.1/KPSL.Collacteral.Shared.csprojAssemblyReference.cache
+/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/obj/Debug/netstandard2.1/KPSL.Collacteral.Shared.csproj.CoreCompileInputs.cache
+/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/obj/Debug/netstandard2.1/KPSL.Collacteral.Shared.AssemblyInfoInputs.cache
+/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/obj/Debug/netstandard2.1/KPSL.Collacteral.Shared.AssemblyInfo.cs
 /Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/obj/Debug/netstandard2.1/KPSL.Collacteral.Shared.csproj.CopyComplete
 /Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/obj/Debug/netstandard2.1/KPSL.Collacteral.Shared.dll
 /Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Shared/obj/Debug/netstandard2.1/KPSL.Collacteral.Shared.pdb

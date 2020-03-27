@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "okl3QT26y+8LniZl70u1DkIbquq+IPb3KIVmK8LyB7nO9JUqKYo18dEfvUb2PEK5oNJHe53unRMhN8JsqGcCzQ==",
+  "dgSpecHash": "mi6WmNBPNXrk3YbKr2w0kuFLv//PzWP/hsCuWoOUSevuVXrxzGlzA2s3dORylblYaoBQRMf5P+GqdKL2sMmiQQ==",
   "success": true,
   "projectFilePath": "/Users/sunny-dev/cslaRatchathani/KPSL.Collacteral/Server/KPSL.Collacteral.Server.csproj",
   "expectedPackageFiles": [
@@ -28,7 +28,7 @@
     "/Users/sunny-dev/.nuget/packages/microsoft.extensions.primitives/3.1.2/microsoft.extensions.primitives.3.1.2.nupkg.sha512",
     "/Users/sunny-dev/.nuget/packages/microsoft.jsinterop/3.1.2/microsoft.jsinterop.3.1.2.nupkg.sha512",
     "/Users/sunny-dev/.nuget/packages/microsoft.jsinterop.webassembly/3.2.0-preview2.20160.5/microsoft.jsinterop.webassembly.3.2.0-preview2.20160.5.nupkg.sha512",
-    "/Users/sunny-dev/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/sunny-dev/.nuget/packages/microsoft.netcore.platforms/3.0.0-preview.19073.11/microsoft.netcore.platforms.3.0.0-preview.19073.11.nupkg.sha512",
     "/Users/sunny-dev/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "/Users/sunny-dev/.nuget/packages/mono.cecil/0.10.1/mono.cecil.0.10.1.nupkg.sha512",
     "/Users/sunny-dev/.nuget/packages/mono.webassembly.interop/3.2.0-preview1.20073.1/mono.webassembly.interop.3.2.0-preview1.20073.1.nupkg.sha512",
